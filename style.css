@@ -1,0 +1,70 @@
+body{
+    font-size: medium;
+    font-family: Gamja Flower, cursive;
+    background-color: #fffff2;
+}
+
+h1{
+    font-family: Chelsea Market, cursive;
+    background-color: #e4572e;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 50px;
+    text-shadow: 2px 2px white;
+    text-decoration: underline;
+}
+
+.first-writing {
+    border: 4px solid #050401;
+    box-shadow: 3px 3px #e4572e;
+    padding: 10px;
+}
+
+.first-writing-header {
+    font-weight: bold;
+}
+
+.first-writing-content{
+    display: flex;
+    justify-content: left;
+    flex-flow: row;
+}
+
+.first-writing-image{
+    display: flex;
+    justify-content: right;
+    flex-flow: row;
+}
+
+.second-writing{
+    border: 4px solid #050401;
+    box-shadow: 3px 3px #e4572e;
+    padding: 10px;
+}
+
+.second-writing-header{
+    font-weight: bold;
+}
+
+.second-writing-content{
+    display: flex;
+    justify-content: left;
+    flex-flow: row;
+}
+
+.second-writing-image{
+    display: flex;
+    justify-content: right;
+    flex-flow: row;
+}
+
+#footer{
+    text-align: center;
+    justify-content: center;
+}
+
+.email{
+    box-shadow: 3px 3px #e4572e;
+    font-family: Chelsea Market, cursive;
+}
