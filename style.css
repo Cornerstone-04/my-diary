@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 body{
-    font-size: medium;
+    font-size: 25px;
     font-family: Gamja Flower, cursive;
     background-color: #fffff2;
 }
@@ -68,3 +70,4 @@ h1{
     box-shadow: 3px 3px #e4572e;
     font-family: Chelsea Market, cursive;
 }
+
