@@ -14,7 +14,7 @@ document.querySelector('main');
 
 let counter = 1;
 let articleLength = document.querySelectorAll('article').length;
-let textNode = `You have ${counter + articleLength} note(s).`;
+let textNode = `You have ${counter + articleLength} notes.`;
 let main = document.querySelector('main');
 // console.log(articleLength);
 
@@ -57,5 +57,5 @@ addBtn.addEventListener('click', () => {
   let {title, noteBody} = prompter();
 
   noteCreator(title, noteBody);
-  pNode.textContent = 'You have ${counter + articleLength} notes'
+  pNode.textContent = `You have ${counter + articleLength} notes.`
 });
